@@ -30,4 +30,4 @@ install:
 
 script: 
   - $CXX --version
-  - make
+  - make VERBOSE=1
